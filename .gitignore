@@ -1,0 +1,15 @@
+# Dépendances (reconstruites par npm install)
+node_modules/
+
+# Sorties générés
+dist/
+coverage/
+
+# Secrets et configuration locale
+.env
+.env.*
+
+# Fichiers système et éditeur
+Thumbs.db
+.DS_Store
+.vscode/
