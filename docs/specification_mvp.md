@@ -169,7 +169,7 @@ Format : *En tant que* [rôle], *je veux* [action] *afin de* [bénéfice], suivi
 ### Sobriété
 
 - **ENF-05** - Le mode sobre (US-18) désactive le préchargement des sons, les animations, et remplace les illustrations par des versions allégées.
-- **ENF-06** - L'audio est décrit en MIDI et synthétisé sur l'appareil : aucun fichier audio lourd n'est téléchargé, même hors mode sobre.
+- **ENF-06** - Les séquences musicales sont décrites en JSON (ADR-009) et le son est produit sur l'appareil à partir d'une petite banque d'échantillons intégrée à l'application (ADR-010) : aucun fichier audio n'est téléchargé, même hors mode sobre.
 
 ### Sécurité et données personnelles (RGPD)
 - **ENF-07** - Les mots de passe sont stockés hachés avec un algorithme adapté (choix en F-03), jamais en clair.
